@@ -1,5 +1,29 @@
 # Changelog
 
+## [0.3.0](https://github.com/StargazerLabs/cardano-connect-with-wallet/compare/cardano-connect-with-wallet-v0.2.6...cardano-connect-with-wallet-v0.3.0) (2023-08-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* refactor the libs into two modules which are both available as npm modules
+
+### Features
+
+* add eternl tracker urls for cip45 p2p connect ([6e8aa96](https://github.com/StargazerLabs/cardano-connect-with-wallet/commit/6e8aa965199e6ab8a59c4523d52c916d3cb63d81))
+* add more customizations and copy button to P2P modal dialog ([b4c0005](https://github.com/StargazerLabs/cardano-connect-with-wallet/commit/b4c00050fdf09f627b550422d80ad3056c74b9bc))
+* add prop to extend the peer connect tracker urls ([5b1b24d](https://github.com/StargazerLabs/cardano-connect-with-wallet/commit/5b1b24d46c6c6845b97b5e2cacbdc7bef8869632))
+* refactor the libs into two modules which are both available as npm modules ([008d523](https://github.com/StargazerLabs/cardano-connect-with-wallet/commit/008d52320f511aa85929cac31f2b5c7f21b140a2))
+* update cip45 api and include latest changes ([70609c4](https://github.com/StargazerLabs/cardano-connect-with-wallet/commit/70609c462fe5c821eeacf319277ec628bb94dd47))
+* update README.md trigger release ([14925fa](https://github.com/StargazerLabs/cardano-connect-with-wallet/commit/14925fa2ef0c3cef687b598aa8677782d01da04a))
+
+
+### Bug Fixes
+
+* add shouldForwardProp to remove the warning root-caused by styled components ([1965ee0](https://github.com/StargazerLabs/cardano-connect-with-wallet/commit/1965ee0af2f3c9842b84ef802742dd2b243d20e5))
+* handle custom prop in styled component to remove the warning ([3f69dd8](https://github.com/StargazerLabs/cardano-connect-with-wallet/commit/3f69dd8328c9e230f0a29913243af8d6e5b18241))
+* remove x char from desktop only menu items ([973141f](https://github.com/StargazerLabs/cardano-connect-with-wallet/commit/973141f2dd643d485cc61feeb58de6fb765a8aaa))
+* update dependencies, fix tracker urls to support ws and wss only ([7711bc4](https://github.com/StargazerLabs/cardano-connect-with-wallet/commit/7711bc4a70698f9bb152fc0b0b3ceab4dbd4f46c))
+
 ## [0.2.6](https://github.com/cardano-foundation/cardano-connect-with-wallet/compare/cardano-connect-with-wallet-v0.2.5...cardano-connect-with-wallet-v0.2.6) (2023-08-11)
 
 
