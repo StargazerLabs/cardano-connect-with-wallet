@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.3.0](https://github.com/StargazerLabs/cardano-connect-with-wallet/compare/cardano-connect-with-wallet-core-v0.2.3...cardano-connect-with-wallet-core-v0.3.0) (2023-08-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* refactor the libs into two modules which are both available as npm modules
+
+### Features
+
+* add a pure js, html and css connect wallet button using the connect-with-wallet-core lib ([b257884](https://github.com/StargazerLabs/cardano-connect-with-wallet/commit/b25788439346076c7b86dafe14a93a5117da6519))
+* refactor the libs into two modules which are both available as npm modules ([008d523](https://github.com/StargazerLabs/cardano-connect-with-wallet/commit/008d52320f511aa85929cac31f2b5c7f21b140a2))
+* upload core lib with version and with tag latest to GitHub pages ([213e924](https://github.com/StargazerLabs/cardano-connect-with-wallet/commit/213e9243e34b61f63f13296abd06cadefc77776b))
+
+
+### Bug Fixes
+
+* getRewardAddresses is not part of wallet object. Therefore checking the enable function ([8751130](https://github.com/StargazerLabs/cardano-connect-with-wallet/commit/875113097c374b7403fd3a6d31774a132cd282b5))
+* remove unused check for isEnabled function and replace it for a check of getRewardAddresses ([156e720](https://github.com/StargazerLabs/cardano-connect-with-wallet/commit/156e720c06e56f9cf697a49f3c4175bf9590cbda))
+
 ## [0.2.3](https://github.com/cardano-foundation/cardano-connect-with-wallet/compare/cardano-connect-with-wallet-core-v0.2.2...cardano-connect-with-wallet-core-v0.2.3) (2023-08-10)
 
 
